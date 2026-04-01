@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSE Student Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background: linear-gradient(to right, #ffecd2, #fcb69f);
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: #fff;
+      padding: 40px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      font-size: 1.2em;
+    }
+    nav {
+      background: #ff6f61;
+      padding: 15px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 30px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #2575fc;
+      border-bottom: 3px solid #ff6f61;
+      padding-bottom: 5px;
+    }
+    .skills, .projects {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      flex: 1 1 250px;
+      transition: transform 0.3s ease, background 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      background: #f0f8ff;
+    }
+    footer {
+      background: linear-gradient(135deg, #2575fc, #6a11cb);
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+    }
+    footer p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Jane Doe</h1>
+  <p>Final Year CSE Student | Aspiring Software Engineer</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>I am a final-year Computer Science & Engineering student passionate about coding, problem-solving, and building innovative applications. I thrive in collaborative environments and love exploring new technologies.</p>
+</section>
+
+<section id="skills">
+  <h2>Technical Skills</h2>
+  <div class="skills">
+    <div class="card">Programming: C, C++, Java, Python</div>
+    <div class="card">Web Development: HTML, CSS, JavaScript, React, Node.js</div>
+    <div class="card">Databases: MySQL, MongoDB</div>
+    <div class="card">Tools: Git, Docker, AWS</div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="projects">
+    <div class="card">
+      <h3>Smart Attendance System</h3>
+      <p>Face recognition-based attendance system using Python, OpenCV, and Flask.</p>
+    </div>
+    <div class="card">
+      <h3>E-Commerce Website</h3>
+      <p>React + Node.js application with product catalog, cart, and payment gateway.</p>
+    </div>
+    <div class="card">
+      <h3>Chat Application</h3>
+      <p>Java socket programming project supporting real-time messaging.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: janedoe@example.com</p>
+  <p>Phone: +91-9876543210</p>
+  <p>GitHub: <a href="https://github.com/username" target="_blank">github.com/username</a></p>
+  <p>LinkedIn: <a href="https://linkedin.com/in/username" target="_blank">linkedin.com/in/username</a></p>
+</section>
+
+<footer>
+  <p>&copy; 2026 Jane Doe | Portfolio</p>
+</footer>
+
+</body>
+</html>
